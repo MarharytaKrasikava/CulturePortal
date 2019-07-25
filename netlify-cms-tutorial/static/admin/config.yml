@@ -1,7 +1,7 @@
 backend:
   backend:
   name: github
-  repo: MarharytaKrasikava/CulturePortal
+  repo: MarharytaKrasikava/CulturePortal/netlify-cms-tutorial
 media_folder: static/assets
 public_folder: assets
 collections:
