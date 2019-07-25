@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  backend:
+  name: github
+  repo: MarharytaKrasikava/CulturePortal
 media_folder: static/assets
 public_folder: assets
 collections:
