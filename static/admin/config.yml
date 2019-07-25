@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: MarharytaKrasikava/CulturePortal
+  branch: netlify
 media_folder: static/assets
 public_folder: assets
 collections:
