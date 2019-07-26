@@ -5,5 +5,20 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-netlify-cms`],
+  siteMetadata: {
+    title: `gatsby-example-using-markdown-pages`,
+    description: `Start your new blog using markdown files`,
+    author: `@gatsbyjs`,
+  },
+  plugins: [
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
+    `gatsby-transformer-remark`,
+  ],
 }
