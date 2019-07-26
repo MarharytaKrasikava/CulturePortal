@@ -1,6 +1,7 @@
 ---
 path: /blog/jury-chashchavacki-ru
-image: /static/admin/assets/yury-hashchavatsky.jpg
+date: 1947-10-18
+image: /static/assets/yury-hashchavatsky.jpg
 title: Юрий Хащеватский
 ---
 В 1973 году окончил Одесский технологический институт, в 1981 — ЛГИТМиК. В Белторгрекламе режиссёром с 1976 г., на Белорусском телевидении с 1978 г., на «Белорусском телефильме» с 1985 г., на киностудии «Беларусьфильм» с 1989 г.
