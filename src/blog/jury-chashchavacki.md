@@ -1,6 +1,6 @@
 ---
 path: /blog/jury-chashchavacki-en
-title: Jury Chashchavacki
+title: Юрий Хащеватский
 image: /assets/yury-hashchavatsky.jpg
 ---
 Jury Chashchavacki, also spelled Yury Khashchavatski (Belarusian: Юры Хашчавацкi, Russian: Юрий Иосифович Хащеватский) (born October 18, 1947 in Odessa, Ukraine) is a Belarusian film director and scenarist, known for his films Kavkazkie plenniki, Bahi Siarpa i Molata, Aranzhavyja Kamizelki, Dazhyts da lubovi and Obyknovennyj prezident.
