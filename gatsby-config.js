@@ -19,8 +19,6 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
-    `gatsby-transformer-remark`,    
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
   ],
 }
