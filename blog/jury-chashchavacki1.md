@@ -1,5 +1,5 @@
 ---
-path: blog/jury-chashchavacki
+path: /blog/jury-chashchavacki1
 date: 2019-07-26T08:12:46.652Z
 title: Jury Chashchavacki
 ---
