@@ -5,11 +5,11 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
-  console.log(data)
   return (
     <div className="blog-post-container">
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
+        <h1>{frontmatter.data}</h1>
         <div><img src={frontmatter.image} width="450" height="294" alt="Yuri-Chashchavacki"/></div>
         <div
           className="blog-post-content"
