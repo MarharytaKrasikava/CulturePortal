@@ -5,11 +5,12 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
+  console.log(frontmatter)
   return (
     <div className="blog-post-container">
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
+        <div><img alt="Yuri-Chashchavacki" src={frontmatter.image}/></div>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
