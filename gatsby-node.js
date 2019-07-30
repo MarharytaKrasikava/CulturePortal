@@ -8,7 +8,6 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       allMarkdownRemark(
-        sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
       ) {
         edges {
@@ -23,14 +22,16 @@ exports.createPages = ({ actions, graphql }) => {
   `).then(result => {
     if (result.errors) {
       return Promise.reject(result.errors)
-    }
+    }   
 
-    return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: blogPostTemplate,
-        context: {}, // additional data can be passed via context
+    if (result.data) {
+      return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.frontmatter.path,
+          component: blogPostTemplate,
+          context: {}, // additional data can be passed via context
+        })
       })
-    })
+    }
   })
 }

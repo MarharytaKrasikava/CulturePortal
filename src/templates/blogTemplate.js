@@ -9,8 +9,9 @@ export default function Template({
     <div className="blog-post-container">
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
-        <h1>{frontmatter.data}</h1>
-        <div><img src={frontmatter.image} width="450" height="294" alt="Yuri-Chashchavacki"/></div>
+        <div>
+        <img width="900" height="588" src={frontmatter.image} alt="Yuri-Khashchavacki" />
+        </div>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -24,10 +25,18 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
         html
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
           path
           title
           image
         }
       }
-  }`
+    }`
+
+    
+    /* file(relativePath: { eq: "assets/yury-hashchavatsky.jpg" }) {
+      childImageSharp {
+        fixed(width: 450) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    } */
