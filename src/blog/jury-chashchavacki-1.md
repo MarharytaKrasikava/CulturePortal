@@ -1,7 +1,8 @@
 ---
 path: /blog/jury-chashchavacki-ru
 title: Jury Chashchavacki
-image: /assets/yury-hashchavatsky.jpg
+date: 2019-07-30T20:30:25.517Z
+image: 'https://nn.by/img/w1500d4/photos/z_2015_10/juri1509-3id0c.jpg'
 ---
 В 1973 году окончил Одесский технологический институт, в 1981 — ЛГИТМиК. В Белторгрекламе режиссёром с 1976 г., на Белорусском телевидении с 1978 г., на «Белорусском телефильме» с 1985 г., на киностудии «Беларусьфильм» с 1989 г.
 
