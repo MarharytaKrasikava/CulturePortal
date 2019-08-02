@@ -15,3 +15,25 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: image, label: Image }
       - { name: body, label: Body, widget: markdown }
+      - label: Timeline
+        name: timeline
+        widget: list
+        fields:
+          - label: Point1
+            name: point1
+            widget: object
+            fields:
+              - {label: Event, name: event, widget: string}
+              - {label: Date, name: date, widget: date}
+          - label: Point2
+            name: point2
+            widget: object
+            fields:
+              - {label: Event, name: event, widget: string}
+              - {label: Date, name: date, widget: date}
+          - label: Point3
+            name: point3
+            widget: object
+            fields:
+              - {label: Event, name: event, widget: string}
+              - {label: Date, name: date, widget: date}
