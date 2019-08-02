@@ -1,5 +1,5 @@
 ---
-path: nekiy
+path: /nekiy
 title: Proba Massiv
 date: 2019-08-02T09:06:07.698Z
 string: stroka
