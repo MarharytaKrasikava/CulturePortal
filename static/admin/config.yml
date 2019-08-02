@@ -19,9 +19,5 @@ collections:
         name: timeline
         widget: list
         fields:
-          - label: Point
-            name: point
-            widget: object
-            fields:
-              - {label: Event, name: event, widget: string}
-              - {label: Date, name: date, widget: date, format: "YYYY"}
+           - {label: Event, name: event, widget: string}
+           - {label: Date, name: date, widget: date, format: "YYYY"}
